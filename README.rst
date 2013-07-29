@@ -111,7 +111,7 @@ will be managed by the Connection.  There is a similar class,
 except managed by the ``Connection``.
 
 ``PersistentList`` and ``PersistentDict`` both inherit from
-``durus.persistent.PersistentObject`, and this is the key to making your own
+``durus.persistent.PersistentObject``, and this is the key to making your own
 classes participate in the Durus persistence system.  Just add
 ``Persistent`` class ``A``'s list of bases, and your instances will know how
 to manage changes to their attributes through a ``Connection``.  To
